@@ -18,7 +18,7 @@ variable "gcp_region" {
 
 variable "gcp_zone" {
   type        = string
-  default     = "europe-central2-b"
+  default     = "europe-central2-a"
   description = "GCP zone for all resources"
 }
 
