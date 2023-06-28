@@ -1,6 +1,6 @@
 variable "machine_type" {
   description = "Type of compute instance to use"
-  default     = "f1-micro"
+  default     = "e2-standard-2"
   type        = string
 }
 
