@@ -12,13 +12,13 @@ variable "tags" {
 
 variable "gcp_region" {
   type        = string
-  default     = "us-east1"
+  default     = "europe-central2"
   description = "GCP region for all resources"
 }
 
 variable "gcp_zone" {
   type        = string
-  default     = "us-east1-b"
+  default     = "europe-central2-b"
   description = "GCP zone for all resources"
 }
 
